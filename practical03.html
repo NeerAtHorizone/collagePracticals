@@ -1,147 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TheNeeRPage</title>
-</head>
-<body style="box-sizing: border-box; margin: 0px; padding: 40px; background-image: radial-gradient(rgb(255, 53, 17),rgb(255, 220, 124)); align-items: center;"  >
-
+  </head>
+  <body
+    style="
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 40px;
+      background-image: radial-gradient(rgb(255, 53, 17), rgb(255, 220, 124));
+      align-items: center;
+    "
+  >
     <center>
-        <span>
-            <b><code><i><a href="practical02.html" style=" text-decoration: none; color: inherit;">Prev</a></i></code></b>
-            <span></span>
-            <b><code><i><a href="index.html" style=" text-decoration: none; color: inherit;">Next</a></i></code></b>
-        </span>
+      <span>
+        <b
+          ><code
+            ><i
+              ><a
+                href="practical02.html"
+                style="text-decoration: none; color: inherit"
+                >Prev</a
+              ></i
+            ></code
+          ></b
+        >
+   
+        <b
+          ><code
+            ><i
+              ><a
+                href="index.html"
+                style="text-decoration: none; color: inherit"
+                >Next</a
+              ></i
+            ></code
+          ></b
+        >
+      </span>
     </center>
 
     <center>
-        <h1><b><code>PRACTICAL O3</code></b></h1>
-        <h1><b><code>REGISTRATION FORM </code></b></h1>
-        <form action="">
-            <table align=" center" bgcolor="#fff176" style="border-radius: 8px;;">
-                <tr>
-                    <th>Personal Information</th>
-                </tr> 
-                <tr>
-                    <td><label for="name">Full Name</label></td>
-                    <td><input type="text" placeholder="Enter Full Name" required></td>
-                </tr>
-                <tr>
-                    <td><label for="father's name">Father's Name</label></td>
-                    <td><input type="text" placeholder="Father's Name" required></td>
-                </tr>
-                <tr>
-                    <td><label for="Date of Birth">Date of Birth</label></td>
-                    <td><input type="date" required></td>
-                </tr>
-                <tr>
-                    <td><label for="gender">Gender</label></td>
-                    <td>
-                        <label for="genderMale">Male</label>
-                        <input type="radio" name = "gender" value="Male">
-                        <label for="genderFemale">Female</label>
-                        <input type="radio" name = "gender" value="Female">
-                        <label for="genderOthers">Others</label>
-                        <input type="radio" name = "gender" value="Others">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="address">Address</label></td>
-                    <td>
-                        <input type="text" name="address" id = "address" placeholder="Current Address" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="emain">Email</label>
-                    </td>
-                    <td>
-                        <input type="email" name="email" id="mail" placeholder="e.g. neeraj123@email.com">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="phoneNumber">phone Number</label></td>
-                    <td>
-                        <input type="number"  required>
-                    </td>
-                </tr>
-                <tr>
-                    <th>Academic Information</th>
-                </tr>
-                <tr>
-                    <td><label for="High School name">High School Name</label></td>
-                    <td><input type="text" name="schooName" id="schoolName" required></td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="highSchoolGraduationYear">High School Graduation Year</label>
-                    </td>
-                    <td>
-                        <input type="number" name="GraduationYear" id="GraduationYear" min="2016" max="2023" step="1" placeholder="2016" required>
-                    </td>
-                </tr>
-                <tr>
-                   
-                </tr>
-                <tr>
-                    <th>Choice of Programe</th>
-                    <td>
-                        <select name="cources" id="cource"  required>
-                            
-                            <option>-----Select---Cource----</option>
-                            <option value="aa">Diploma in Applied Arts</option>
-                            <option value="a">Diploma in Architecture</option>
-                            <option value="ae">Diploma in Automobile Engineering</option>
-                            <option value="che">Diploma in Chemical Engineering</option>
-                            <option value="cve">Diploma in Civil Engineering</option>
-                            <option value="ce">Diploma in Computer Engineering</option>
-                            <option value="coh">Diploma in Cosmology & Health</option>
-                            <option value="de">Diploma in Digital Electronics</option>
-                            <option value="ele">Diploma in Electrical Engineering</option>
-                            <option value="ece">Diploma in Electronic Engineering</option>
-                            <option value="fd">Diploma in Fashion Design</option>
-                            <option value="me">Diploma in Machenical Engineering</option>
-                            <option value="ph">Diploma in Pharmacy</option>
-                            <option value="pt">Diploma in Printing Te chnology</option>
-                        </select>
-                    </td>
-                </tr>
+      <h1>
+        <b><code>PRACTICAL O3</code></b>
+      </h1>
+      <h1>
+        
+      </h1>
+      <form action="">
+        <fieldset aria-autocomplete="both">
+        <legend><b><code>REGISTRATION FORM </code></b></legend>
+          <table align=" center" bgcolor="#fff176" style="border-radius: 8px">
+            <tr>
+              <legend><th>Personal Information</th></legend>
+            </tr>
+            <tr>
+              <td><label for="name">Full Name</label></td>
+              <td>
+                <input type="text" placeholder="Enter Full Name" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="father's name">Father's Name</label></td>
+              <td>
+                <input type="text" placeholder="Father's Name" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="Date of Birth">Date of Birth</label></td>
+              <td><input type="date" required /></td>
+            </tr>
+            <tr>
+              <td><label for="gender">Gender</label></td>
+              <td>
+                <label for="genderMale">Male</label>
+                <input type="radio" name="gender" value="Male" />
+                <label for="genderFemale">Female</label>
+                <input type="radio" name="gender" value="Female" />
+                <label for="genderOthers">Others</label>
+                <input type="radio" name="gender" value="Others" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="address">Address</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="address"
+                  id="address"
+                  placeholder="Current Address"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="emain">Email</label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  id="mail"
+                  placeholder="e.g. neeraj123@email.com"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="phoneNumber">phone Number</label></td>
+              <td>
+                <input type="number" required />
+              </td>
+            </tr>
+            <tr>
+              <th>Academic Information</th>
+            </tr>
+            <tr>
+              <td><label for="High School name">High School Name</label></td>
+              <td>
+                <input type="text" name="schooName" id="schoolName" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="highSchoolGraduationYear"
+                  >High School Graduation Year</label
+                >
+              </td>
+              <td>
+                <input
+                  type="number"
+                  name="GraduationYear"
+                  id="GraduationYear"
+                  min="2016"
+                  max="2023"
+                  step="1"
+                  placeholder="2016"
+                  required
+                />
+              </td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <th>Choice of Programe</th>
+              <td>
+                <select name="cources" id="cource" required>
+                  <option>-----Select---Cource----</option>
+                  <option value="aa">Diploma in Applied Arts</option>
+                  <option value="a">Diploma in Architecture</option>
+                  <option value="ae">Diploma in Automobile Engineering</option>
+                  <option value="che">Diploma in Chemical Engineering</option>
+                  <option value="cve">Diploma in Civil Engineering</option>
+                  <option value="ce">Diploma in Computer Engineering</option>
+                  <option value="coh">Diploma in Cosmology & Health</option>
+                  <option value="de">Diploma in Digital Electronics</option>
+                  <option value="ele">Diploma in Electrical Engineering</option>
+                  <option value="ece">Diploma in Electronic Engineering</option>
+                  <option value="fd">Diploma in Fashion Design</option>
+                  <option value="me">Diploma in Machenical Engineering</option>
+                  <option value="ph">Diploma in Pharmacy</option>
+                  <option value="pt">Diploma in Printing Te chnology</option>
+                </select>
+              </td>
+            </tr>
 
-                <tr></tr>
+            <tr></tr>
 
-                <tr>
-                    <th>Upload Documents</th>
-                </tr>
+            <tr>
+              <th>Upload Documents</th>
+            </tr>
 
-                <tr>
-                    <td>
-                        <label for="photo">PassportSize photo</label>
-                    </td>
-                    <td>
-                        <input type="file" name="photo" id="photo" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="slcDoc">Marksheet</label>
-                    </td>
-                    <td>
-                        <input type="file" name="slcDoc" id="slcDoc" required>
-                    </td>
-                </tr>
-                <tr></tr>
-                <tr>
-                    <th colspan="2">
-                        <button >Proceed</button>
-                    </th>
-                </tr>
-            </table>
+            <tr>
+              <td>
+                <label for="photo">PassportSize photo</label>
+              </td>
+              <td>
+                <input type="file" name="photo" id="photo" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="slcDoc">Marksheet</label>
+              </td>
+              <td>
+                <input type="file" name="slcDoc" id="slcDoc" required />
+              </td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <th colspan="2">
+                <button>Proceed</button>
+              </th>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
 
-        </form>
-
-        <br>
-        <br>
-    </center>    
-</body>
+      <br />
+      <br />
+    </center>
+  </body>
 </html>
